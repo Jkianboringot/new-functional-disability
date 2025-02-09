@@ -1,0 +1,11 @@
+analyzing functional disability
+
+i will reanalyze everthing then create  visual view that can guide me in desicion
+
+
+
+what this wants 
+###   •Prevalence: Calculate as (cases / total population) × 100 for fair comparisons.
+###   •Most affected: Compare rates (e.g., per 1,000 people) rather than raw counts to avoid population size bias.
+
+by 
