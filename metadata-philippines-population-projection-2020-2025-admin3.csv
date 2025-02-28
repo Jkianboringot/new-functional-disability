@@ -1,0 +1,29 @@
+Field,Label,Value
+id,Dataset ID,a8fa512a-0a12-4753-ba46-b722eaac6d66
+title,Title of Dataset,Philippines Population Projection 2020 to 2025 by Admin3
+name,Dataset URL,philippines-population-projection-2020-2025-admin3
+notes,Description,This data is about the Philippines population projection count 2020 to 2025 by city/municipality (admin3) based on 2015 Census
+dataset_source,Source,Philippines Statistics Authority
+organization,Contributor,OCHA Philippines
+dataset_date,Reference Period,[2021-03-01T00:00:00 TO 2025-07-01T23:59:59]
+last_modified,Updated,2021-11-09T09:11:10.974512
+data_update_frequency,Expected Update Frequency,As needed
+groups,Location,Philippines
+license_title,License,Creative Commons Attribution International
+methodology,Methodology,Other
+methodology_other,Define Methodology,Estimation. Population growth rates were utilized to estimate the midyear population for years 2020 to 2025 using the exponential population projection formula
+caveats,Caveats/Comments,
+tags,Tags,baseline population
+resource_1_created,Created,2021-11-09T09:11:11.268399
+resource_1_description,Description,Philippines population projection 2020 to 2025 by city/municipality (admin3)
+resource_1_format,File Format,XLSX
+resource_1_download_url,Download URL,https://data.humdata.org/dataset/a8fa512a-0a12-4753-ba46-b722eaac6d66/resource/5f14f465-8de1-489c-976e-5aa2cfa4b489/download/phl_population-projections_admin3_midyear2020_2025.xlsx
+resource_1_id,Resource ID,5f14f465-8de1-489c-976e-5aa2cfa4b489
+resource_1_last_modified,Updated,2021-11-09T09:11:10.974512
+resource_1_metadata_modified,Metadata Updated,2021-11-09T11:27:44.548080
+resource_1_microdata,Microdata,False
+resource_1_dataset_id,Dataset ID,a8fa512a-0a12-4753-ba46-b722eaac6d66
+resource_1_resource_type,Resource Type,file.upload
+resource_1_name,Resource Name,PHL_Population Projections_Admin3_Midyear2020_2025.xlsx
+resource_1_mimetype,MIME Type,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+resource_1_size,Size,147.6K
