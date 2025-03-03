@@ -1,0 +1,37 @@
+create an function that will lessen the berden on the laptop by making binary file where all the 
+visualization will be stored and you can just call it when user want to see it itbasically storing 
+the graph and user can just more it around but by doing this instead of rerunning it, it will just call it
+ and it will just show and user can do what ever they want with it 
+
+
+plan to use
+
+
+
+app layout:
+createa  plan on waht you want to do with your project 
+
+what do i want:
+	i want an website or app that will visuallize my finding from simple to advance do i dont just want to show choroleth but other visualization too do am thing should 
+	i make it multi page or single page just manipulate so it small like the visualization in tabluae or a scroll type 
+final verdict:
+frame work = streamlit and maybe transition to something like dash
+		- easy to use and deploy completely free too
+	i think i will do it in a report type way where you can scroll down
+		-why:
+			i want it to look like a report style where you can read about the analysis and the type then this for every analysis but this might
+			cause the app to be either slow or crash so yo atleast mitigate this i will make a bin file where it will store the graph and just reaccess it
+			and use streamlit @st.cache_resource 
+
+ACTION:
+1.visualization
+	-visualize first so that you know what to to use in choroleth 
+	-i will use total_disability_population in main.ipynb fro choroleth but i can filter by disability and the 
+		value will be the average and if the data is to shit i will just use np.log10 or somthing
+2.file management
+	-create a fucntion that will automate the file management as it will be the place where i will store 
+graph file
+
+
+
+
