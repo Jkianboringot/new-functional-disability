@@ -26,12 +26,21 @@ frame work = streamlit and maybe transition to something like dash
 ACTION:
 1.visualization
 	-visualize first so that you know what to to use in choroleth 
-	-i will use total_disability_population in main.ipynb fro choroleth but i can filter by disability and the 
+	•i will use total_disability_population in main.ipynb fro choroleth but i can filter by disability and the 
 		value will be the average and if the data is to shit i will just use np.log10 or somthing
+	•interactivity choroleth:
+		for now i will make the interactivity to disability status and region  
+		-
 2.file management
 	-create a fucntion that will automate the file management as it will be the place where i will store 
 graph file
 
 
 
+-choroleth not showing = solution openp wifi
 
+tommorow objective:
+	•visualize other plot and make the bin file 
+
+
+deadline= march 9
