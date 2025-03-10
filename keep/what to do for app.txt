@@ -24,12 +24,12 @@ frame work = streamlit and maybe transition to something like dash
 			and use streamlit @st.cache_resource 
 
 ACTION:
-1.visualization
+1.visualization✔✔
 	-visualize first so that you know what to to use in choroleth 
 	•i will use total_disability_population in main.ipynb fro choroleth but i can filter by disability and the 
 		value will be the average and if the data is to shit i will just use np.log10 or somthing
 	•interactivity choroleth:
-		for now i will make the interactivity to disability status and region  
+		for now i will make the interactivity to disability status and region  ✔
 		-
 2.file management
 	-create a fucntion that will automate the file management as it will be the place where i will store 
@@ -39,8 +39,16 @@ graph file
 
 -choroleth not showing = solution openp wifi
 
-tommorow objective:
-	•visualize other plot and make the bin file 
+notes:
+	ok am mostly done as of march 8 and i just need to fix the layout like make the map bigger make the select box longer
+	and i still didnt see the reason for a bin file but i think thats because i have not deployed it yet lastly i need to 
+	make the code more efficient since its jsut a prototype
+
+to do to day:
+	-clean organize my file(i think i should just have to nb file one for exploratory and other for the real one then decide what to do)
+	-clean up the code of the main ipynb 
+	-seperate the code into file make a different fule for the app that hold all the funciton of the ipynb and streamlit 
+
 
 
 deadline= march 9

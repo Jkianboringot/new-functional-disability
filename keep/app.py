@@ -1,3 +1,5 @@
+from matplotlib import markers
+import openpyxl
 import streamlit as st
 import pandas as pd 
 import numpy as np
@@ -5,6 +7,7 @@ import os
 import json
 import plotly.express as px
 import pickle
+
 
 pwd=os.getcwd()
 df=pd.read_csv(pwd+"/functional_difficulty_dataset/keep/csv/total_disability_per100k.csv")
@@ -23,7 +26,7 @@ def check_file(reg_prov_fol,file):
                print(f"File {check} dont exist")
 
 
-def region_figure(x:str):# -> Any:
+def region_figure(x):# -> Any:
     geojson_prov=pwd+"/functional_difficulty_dataset/keep/geojson/regions"
     prov_file=f"regions.0.01"
     f=json.load(open(rf'{geojson_prov}/{prov_file}.json'))
@@ -38,9 +41,10 @@ def region_figure(x:str):# -> Any:
             hover_data="Person affected by disability per 100k",
                 hover_name="Region")
     fig.update_geos(fitbounds="locations",visible=False)
+
     return fig
     #return value
-region_figure(x="severe")
+
 
 dic_regcode={}
 for x in geolocation["features"]:
@@ -49,7 +53,7 @@ for x in geolocation["features"]:
 
 
 
-def province_figure(y:str,x:str):# -> An
+def province_figure(y,x):# -> An
     folder_path=pwd+"/functional_difficulty_dataset/keep/geojson/provinces"
     prov_file=f"provinces-region-{dic_regcode[y].lower()}.0.01.json"
     value=df.loc[(df["Status"]==(x).capitalize().strip())
@@ -64,14 +68,53 @@ def province_figure(y:str,x:str):# -> An
               center={"lat":12.8797,"lon":121.7740},zoom=4,
                 hover_data="Person affected by disability per 100k",
                 hover_name="Province")
-        fig.update_geos(fitbounds="locations",visible=False) 
+        fig.update_geos(fitbounds="locations",visible=False)        
         return fig
+ 
+       
     except FileNotFoundError:
        print(f"File dont exist")
 
-    #return value
 
-st.write(region_figure(x="severe"))
-st.write(province_figure(y="Region II",x="moderate"))
-#actually before doing all this i need to finanlize all then do this after that test out if making a been file is even 
-#worth it,why do this becuase i have to put all me file in where unles i can call it
+
+ 
+
+
+#put all this in a new file for clearer readibility
+def app_layout():
+    st.set_page_config(page_title="PH Fucntional Disability Distribution",page_icon=":zany_face:")
+    st.title("Philippine Fucntional Disability For Household Population Five Years Old and Over")
+    st.markdown("choroleth visualization for people with **fucntional disability** by region/province  in phillipines")
+    
+    col1,col2=st.columns([1,2],gap="large")
+    with col1:
+        option=st.selectbox("choose an option",options=["Select Option","Region","Province"])
+    with col2:
+         status=st.radio("Disability Status",options=["Mild","Moderate","Severe"],horizontal=True)
+    if option == "Region":
+        st.header("Region Visualization")
+        st.write(region_figure(x=status))
+    elif option == "Province":
+        k =st.selectbox("Province **Fucntional Disability** Visualization",options=[x for x in dic_regcode])
+       
+        st.write(province_figure(y=k,x=status))
+    
+app_layout()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#goal for the day is comple all inter active functions
