@@ -30,7 +30,11 @@ ACTION:
 		value will be the average and if the data is to shit i will just use np.log10 or somthing
 	•interactivity choroleth:
 		for now i will make the interactivity to disability status and region  ✔
-		-
+		-ok now change that to disability type and if the user did not select any disability status it will defualt to
+			show all disability status and i think i will put all this in teh side bar
+	-other viz i will use go instead of px jst the basic visuallize and customizablility
+	•if you still have time do the slighty advnace viz like showing what is the high disability per region
+		or gender hishest in each rergion  also i want all this to have province
 2.file management
 	-create a fucntion that will automate the file management as it will be the place where i will store 
 graph file
@@ -44,11 +48,16 @@ notes:
 	and i still didnt see the reason for a bin file but i think thats because i have not deployed it yet lastly i need to 
 	make the code more efficient since its jsut a prototype
 
-to do to day:
+to do :
 	-clean organize my file(i think i should just have to nb file one for exploratory and other for the real one then decide what to do)
 	-clean up the code of the main ipynb 
 	-seperate the code into file make a different fule for the app that hold all the funciton of the ipynb and streamlit 
+	-create a automatic groupby function by list or varaible so that you dont have tp manually create one everytime,but
+		when you emplement this might cause streamlit to lag becuase by creating a new groupbythat everybody use everything 
+		will rerun at the same time so find a way only what you are seeing change an other will change when you get to them
+today work:
+	-viz all the plotly in main then put it in streamlit by pages and make them customizable
+	-ok all basix viz are done now just need to add customizablility by naking the groupby one
+	-order code because its shit looking✔
 
-
-
-deadline= march 9
+after this i need to fix the order of my code like groupby section viz se

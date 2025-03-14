@@ -31,16 +31,33 @@ def region_figure(x):# -> Any:
     prov_file=f"regions.0.01"
     f=json.load(open(rf'{geojson_prov}/{prov_file}.json'))
     value=df.loc[df["Status"]==(x).capitalize().strip()]
-    fig = px.choropleth_map(
+    fig = px.choropleth(
             data_frame = value, 
             geojson =  f,
             featureidkey = 'properties.ADM1_PCODE',
             locations = "RegCode_New",
            color="scale affected",
-           center={"lat":12.8797,"lon":121.7740},zoom=4,
+           center={"lat":12.8797,"lon":121.7740},
             hover_data="Person affected by disability per 100k",
                 hover_name="Region")
     fig.update_geos(fitbounds="locations",visible=False)
+    #make this a function so that you dont have to repeat in the other
+    fig.update_layout(
+    coloraxis=dict(colorbar=dict(orientation='h', y=0.9)),
+    coloraxis_colorbar = dict(title = 'Disability'), 
+    margin={"r":0,"t":0,"l":0,"b":0}, 
+    paper_bgcolor = 'rgba(0,0,0,0)', 
+    plot_bgcolor = 'rgba(0,0,0,0)',
+    geo = dict(bgcolor = 'rgba(0,0,0,0)', ), 
+    modebar_bgcolor = 'rgba(0,0,0,0)',
+    modebar_color = '#6d0006',
+    modebar_activecolor = '#323140',
+    modebar_orientation = 'v')
+
+#not mine so understand it
+
+
+
 
     return fig
     #return value
@@ -57,15 +74,15 @@ def province_figure(y,x):# -> An
     folder_path=pwd+"/functional_difficulty_dataset/keep/geojson/provinces"
     prov_file=f"provinces-region-{dic_regcode[y].lower()}.0.01.json"
     value=df.loc[(df["Status"]==(x).capitalize().strip())
-                                           & (df["RegCode_New"]== dic_regcode[y])]
+                                           & (df["RegCode_New"]== dic_regcode[y])]#chane this to old regcode
     try:
-        fig = px.choropleth_map(
+        fig = px.choropleth(
                 data_frame = value, 
                 geojson =  check_file(folder_path,prov_file), # this thing will probably run if i put it in the fucntion like a normal person
                 featureidkey = 'properties.ADM2_PCODE',
                 locations = "Province_pcode",
             color="scale affected",     
-              center={"lat":12.8797,"lon":121.7740},zoom=4,
+              center={"lat":12.8797,"lon":121.7740},
                 hover_data="Person affected by disability per 100k",
                 hover_name="Province")
         fig.update_geos(fitbounds="locations",visible=False)        
@@ -86,6 +103,11 @@ def app_layout():
     st.title("Philippine Fucntional Disability For Household Population Five Years Old and Over")
     st.markdown("choroleth visualization for people with **fucntional disability** by region/province  in phillipines")
     
+    # add_selectbox = st.sidebar.selectbox(
+    # "How would you like to be contacted?",
+    # ("Email", "Home phone", "Mobile phone")
+# )
+
     col1,col2=st.columns([1,2],gap="large")
     with col1:
         option=st.selectbox("choose an option",options=["Select Option","Region","Province"])
@@ -93,7 +115,8 @@ def app_layout():
          status=st.radio("Disability Status",options=["Mild","Moderate","Severe"],horizontal=True)
     if option == "Region":
         st.header("Region Visualization")
-        st.write(region_figure(x=status))
+        st.plotly_chart(region_figure(x=status),use_container_width=True)
+        
     elif option == "Province":
         k =st.selectbox("Province **Fucntional Disability** Visualization",options=[x for x in dic_regcode])
        
