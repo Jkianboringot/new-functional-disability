@@ -28,17 +28,21 @@ ACTION:
 	-visualize first so that you know what to to use in choroleth 
 	•i will use total_disability_population in main.ipynb fro choroleth but i can filter by disability and the 
 		value will be the average and if the data is to shit i will just use np.log10 or somthing
+
 	•interactivity choroleth:
 		for now i will make the interactivity to disability status and region  ✔
 		-ok now change that to disability type and if the user did not select any disability status it will defualt to
 			show all disability status and i think i will put all this in teh side bar
+
 	-other viz i will use go instead of px jst the basic visuallize and customizablility
 	•if you still have time do the slighty advnace viz like showing what is the high disability per region
 		or gender hishest in each rergion  also i want all this to have province
+
 2.file management
 	-create a fucntion that will automate the file management as it will be the place where i will store 
 graph file
-
+	-creat 3 file that will hold the fucntion the groupbys and merge and for streamlit
+3.make side bar the will hold all the viz
 
 
 -choroleth not showing = solution openp wifi
@@ -55,9 +59,22 @@ to do :
 	-create a automatic groupby function by list or varaible so that you dont have tp manually create one everytime,but
 		when you emplement this might cause streamlit to lag becuase by creating a new groupbythat everybody use everything 
 		will rerun at the same time so find a way only what you are seeing change an other will change when you get to them
-today work:
-	-viz all the plotly in main then put it in streamlit by pages and make them customizable
-	-ok all basix viz are done now just need to add customizablility by naking the groupby one
-	-order code because its shit looking✔
+tomorrow work:
+	-viz all the plotly in main then put it in streamlit by pages and make them customizable✔
+	-watch how keit make report with jupyter and do it
+	-deploy and if its slow then make bin file only untill today
 
-after this i need to fix the order of my code like groupby section viz se
+
+ok streamlit is getting solower as a add more thing
+ok done just need to create report and organize file and the dataframe in the home
+
+deadline march 15 3am (miss)
+
+add visualization on what gender has the higst in each region so is ages later
+ok for one hour i need to finish seperating code into files and organize file then organizing jupyter 
+
+
+#maybe i should just put all this gorup by in a new file but do the app first
+	-no instead i just save them as afile then read them that way its easier to access them and am making them for user to see anyway
+	so may as well use them to make the code cleaner
+fix geolocation seems useless

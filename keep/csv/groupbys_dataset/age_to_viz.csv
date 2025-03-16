@@ -1,0 +1,409 @@
+Disability,Region,Population,age/ave_affected,age affection
+Cognitive Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 5-19,3090
+Communication Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 5-19,5642
+Hearing Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 5-19,1945
+Mobility Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 5-19,2139
+Self-Care Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 5-19,8499
+Visual Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 5-19,4100
+Cognitive Disability,Cordillera Administrative Region (CAR),1807739,Age: 5-19,1662
+Communication Disability,Cordillera Administrative Region (CAR),1807739,Age: 5-19,2146
+Hearing Disability,Cordillera Administrative Region (CAR),1807739,Age: 5-19,1345
+Mobility Disability,Cordillera Administrative Region (CAR),1807739,Age: 5-19,1477
+Self-Care Disability,Cordillera Administrative Region (CAR),1807739,Age: 5-19,1874
+Visual Disability,Cordillera Administrative Region (CAR),1807739,Age: 5-19,4414
+Cognitive Disability,MIMAROPA Region,3174856,Age: 5-19,2972
+Communication Disability,MIMAROPA Region,3174856,Age: 5-19,4473
+Hearing Disability,MIMAROPA Region,3174856,Age: 5-19,3182
+Mobility Disability,MIMAROPA Region,3174856,Age: 5-19,2939
+Self-Care Disability,MIMAROPA Region,3174856,Age: 5-19,3478
+Visual Disability,MIMAROPA Region,3174856,Age: 5-19,6569
+Cognitive Disability,National Capital Region (NCR),13804656,Age: 5-19,8238
+Communication Disability,National Capital Region (NCR),13804656,Age: 5-19,11884
+Hearing Disability,National Capital Region (NCR),13804656,Age: 5-19,6729
+Mobility Disability,National Capital Region (NCR),13804656,Age: 5-19,6487
+Self-Care Disability,National Capital Region (NCR),13804656,Age: 5-19,10019
+Visual Disability,National Capital Region (NCR),13804656,Age: 5-19,52614
+Cognitive Disability,REGION XI (DAVAO REGION),5290867,Age: 5-19,4339
+Communication Disability,REGION XI (DAVAO REGION),5290867,Age: 5-19,6169
+Hearing Disability,REGION XI (DAVAO REGION),5290867,Age: 5-19,3285
+Mobility Disability,REGION XI (DAVAO REGION),5290867,Age: 5-19,3401
+Self-Care Disability,REGION XI (DAVAO REGION),5290867,Age: 5-19,5313
+Visual Disability,REGION XI (DAVAO REGION),5290867,Age: 5-19,8333
+Cognitive Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 5-19,6559
+Communication Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 5-19,8733
+Hearing Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 5-19,4865
+Mobility Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 5-19,5236
+Self-Care Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 5-19,8287
+Visual Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 5-19,8787
+Cognitive Disability,Region I (Ilocos Region),5270807,Age: 5-19,2834
+Communication Disability,Region I (Ilocos Region),5270807,Age: 5-19,5153
+Hearing Disability,Region I (Ilocos Region),5270807,Age: 5-19,2956
+Mobility Disability,Region I (Ilocos Region),5270807,Age: 5-19,3145
+Self-Care Disability,Region I (Ilocos Region),5270807,Age: 5-19,4006
+Visual Disability,Region I (Ilocos Region),5270807,Age: 5-19,7747
+Cognitive Disability,Region II (Cagayan Valley),3657746,Age: 5-19,2539
+Communication Disability,Region II (Cagayan Valley),3657746,Age: 5-19,4141
+Hearing Disability,Region II (Cagayan Valley),3657746,Age: 5-19,2759
+Mobility Disability,Region II (Cagayan Valley),3657746,Age: 5-19,2793
+Self-Care Disability,Region II (Cagayan Valley),3657746,Age: 5-19,3690
+Visual Disability,Region II (Cagayan Valley),3657746,Age: 5-19,6710
+Cognitive Disability,Region III (Central Luzon),12313714,Age: 5-19,6215
+Communication Disability,Region III (Central Luzon),12313714,Age: 5-19,11215
+Hearing Disability,Region III (Central Luzon),12313714,Age: 5-19,6984
+Mobility Disability,Region III (Central Luzon),12313714,Age: 5-19,6274
+Self-Care Disability,Region III (Central Luzon),12313714,Age: 5-19,8506
+Visual Disability,Region III (Central Luzon),12313714,Age: 5-19,35614
+Cognitive Disability,Region IV-A (CALABARZON),16057291,Age: 5-19,9346
+Communication Disability,Region IV-A (CALABARZON),16057291,Age: 5-19,14751
+Hearing Disability,Region IV-A (CALABARZON),16057291,Age: 5-19,9031
+Mobility Disability,Region IV-A (CALABARZON),16057291,Age: 5-19,8953
+Self-Care Disability,Region IV-A (CALABARZON),16057291,Age: 5-19,12291
+Visual Disability,Region IV-A (CALABARZON),16057291,Age: 5-19,45022
+Cognitive Disability,Region IX (Zamboanga Peninsula),3782761,Age: 5-19,3522
+Communication Disability,Region IX (Zamboanga Peninsula),3782761,Age: 5-19,4863
+Hearing Disability,Region IX (Zamboanga Peninsula),3782761,Age: 5-19,2364
+Mobility Disability,Region IX (Zamboanga Peninsula),3782761,Age: 5-19,2622
+Self-Care Disability,Region IX (Zamboanga Peninsula),3782761,Age: 5-19,4736
+Visual Disability,Region IX (Zamboanga Peninsula),3782761,Age: 5-19,4342
+Cognitive Disability,Region V (Bicol Region),6133835,Age: 5-19,5184
+Communication Disability,Region V (Bicol Region),6133835,Age: 5-19,9007
+Hearing Disability,Region V (Bicol Region),6133835,Age: 5-19,6657
+Mobility Disability,Region V (Bicol Region),6133835,Age: 5-19,5538
+Self-Care Disability,Region V (Bicol Region),6133835,Age: 5-19,6216
+Visual Disability,Region V (Bicol Region),6133835,Age: 5-19,12620
+Cognitive Disability,Region VI (Western Visayas),7904895,Age: 5-19,6346
+Communication Disability,Region VI (Western Visayas),7904895,Age: 5-19,9291
+Hearing Disability,Region VI (Western Visayas),7904895,Age: 5-19,4804
+Mobility Disability,Region VI (Western Visayas),7904895,Age: 5-19,5334
+Self-Care Disability,Region VI (Western Visayas),7904895,Age: 5-19,7751
+Visual Disability,Region VI (Western Visayas),7904895,Age: 5-19,10871
+Cognitive Disability,Region VII (Central Visayas),7957045,Age: 5-19,7132
+Communication Disability,Region VII (Central Visayas),7957045,Age: 5-19,9494
+Hearing Disability,Region VII (Central Visayas),7957045,Age: 5-19,5246
+Mobility Disability,Region VII (Central Visayas),7957045,Age: 5-19,5518
+Self-Care Disability,Region VII (Central Visayas),7957045,Age: 5-19,7287
+Visual Disability,Region VII (Central Visayas),7957045,Age: 5-19,13059
+Cognitive Disability,Region VIII (Eastern Visayas),4742342,Age: 5-19,3962
+Communication Disability,Region VIII (Eastern Visayas),4742342,Age: 5-19,5653
+Hearing Disability,Region VIII (Eastern Visayas),4742342,Age: 5-19,3367
+Mobility Disability,Region VIII (Eastern Visayas),4742342,Age: 5-19,3369
+Self-Care Disability,Region VIII (Eastern Visayas),4742342,Age: 5-19,5414
+Visual Disability,Region VIII (Eastern Visayas),4742342,Age: 5-19,6896
+Cognitive Disability,Region X (Northern Mindanao),5017050,Age: 5-19,4431
+Communication Disability,Region X (Northern Mindanao),5017050,Age: 5-19,6565
+Hearing Disability,Region X (Northern Mindanao),5017050,Age: 5-19,3290
+Mobility Disability,Region X (Northern Mindanao),5017050,Age: 5-19,3319
+Self-Care Disability,Region X (Northern Mindanao),5017050,Age: 5-19,6493
+Visual Disability,Region X (Northern Mindanao),5017050,Age: 5-19,6232
+Cognitive Disability,Region XIII (Caraga),2753107,Age: 5-19,2847
+Communication Disability,Region XIII (Caraga),2753107,Age: 5-19,4090
+Hearing Disability,Region XIII (Caraga),2753107,Age: 5-19,2294
+Mobility Disability,Region XIII (Caraga),2753107,Age: 5-19,2277
+Self-Care Disability,Region XIII (Caraga),2753107,Age: 5-19,3233
+Visual Disability,Region XIII (Caraga),2753107,Age: 5-19,3717
+Cognitive Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 20-34,2486
+Communication Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 20-34,3795
+Hearing Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 20-34,2469
+Mobility Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 20-34,2338
+Self-Care Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 20-34,2126
+Visual Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 20-34,6546
+Cognitive Disability,Cordillera Administrative Region (CAR),1807739,Age: 20-34,2403
+Communication Disability,Cordillera Administrative Region (CAR),1807739,Age: 20-34,1815
+Hearing Disability,Cordillera Administrative Region (CAR),1807739,Age: 20-34,1989
+Mobility Disability,Cordillera Administrative Region (CAR),1807739,Age: 20-34,1923
+Self-Care Disability,Cordillera Administrative Region (CAR),1807739,Age: 20-34,1182
+Visual Disability,Cordillera Administrative Region (CAR),1807739,Age: 20-34,9487
+Cognitive Disability,MIMAROPA Region,3174856,Age: 20-34,5745
+Communication Disability,MIMAROPA Region,3174856,Age: 20-34,3797
+Hearing Disability,MIMAROPA Region,3174856,Age: 20-34,4303
+Mobility Disability,MIMAROPA Region,3174856,Age: 20-34,3586
+Self-Care Disability,MIMAROPA Region,3174856,Age: 20-34,1877
+Visual Disability,MIMAROPA Region,3174856,Age: 20-34,15558
+Cognitive Disability,National Capital Region (NCR),13804656,Age: 20-34,9457
+Communication Disability,National Capital Region (NCR),13804656,Age: 20-34,10689
+Hearing Disability,National Capital Region (NCR),13804656,Age: 20-34,9733
+Mobility Disability,National Capital Region (NCR),13804656,Age: 20-34,8094
+Self-Care Disability,National Capital Region (NCR),13804656,Age: 20-34,6072
+Visual Disability,National Capital Region (NCR),13804656,Age: 20-34,110939
+Cognitive Disability,REGION XI (DAVAO REGION),5290867,Age: 20-34,7898
+Communication Disability,REGION XI (DAVAO REGION),5290867,Age: 20-34,5082
+Hearing Disability,REGION XI (DAVAO REGION),5290867,Age: 20-34,4456
+Mobility Disability,REGION XI (DAVAO REGION),5290867,Age: 20-34,4224
+Self-Care Disability,REGION XI (DAVAO REGION),5290867,Age: 20-34,2859
+Visual Disability,REGION XI (DAVAO REGION),5290867,Age: 20-34,21513
+Cognitive Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 20-34,11761
+Communication Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 20-34,7187
+Hearing Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 20-34,6767
+Mobility Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 20-34,6155
+Self-Care Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 20-34,3982
+Visual Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 20-34,21554
+Cognitive Disability,Region I (Ilocos Region),5270807,Age: 20-34,3869
+Communication Disability,Region I (Ilocos Region),5270807,Age: 20-34,4936
+Hearing Disability,Region I (Ilocos Region),5270807,Age: 20-34,4297
+Mobility Disability,Region I (Ilocos Region),5270807,Age: 20-34,4045
+Self-Care Disability,Region I (Ilocos Region),5270807,Age: 20-34,2525
+Visual Disability,Region I (Ilocos Region),5270807,Age: 20-34,19293
+Cognitive Disability,Region II (Cagayan Valley),3657746,Age: 20-34,4017
+Communication Disability,Region II (Cagayan Valley),3657746,Age: 20-34,3630
+Hearing Disability,Region II (Cagayan Valley),3657746,Age: 20-34,3800
+Mobility Disability,Region II (Cagayan Valley),3657746,Age: 20-34,3665
+Self-Care Disability,Region II (Cagayan Valley),3657746,Age: 20-34,2051
+Visual Disability,Region II (Cagayan Valley),3657746,Age: 20-34,16371
+Cognitive Disability,Region III (Central Luzon),12313714,Age: 20-34,8573
+Communication Disability,Region III (Central Luzon),12313714,Age: 20-34,10347
+Hearing Disability,Region III (Central Luzon),12313714,Age: 20-34,9922
+Mobility Disability,Region III (Central Luzon),12313714,Age: 20-34,8372
+Self-Care Disability,Region III (Central Luzon),12313714,Age: 20-34,5550
+Visual Disability,Region III (Central Luzon),12313714,Age: 20-34,77051
+Cognitive Disability,Region IV-A (CALABARZON),16057291,Age: 20-34,12136
+Communication Disability,Region IV-A (CALABARZON),16057291,Age: 20-34,13109
+Hearing Disability,Region IV-A (CALABARZON),16057291,Age: 20-34,12041
+Mobility Disability,Region IV-A (CALABARZON),16057291,Age: 20-34,10632
+Self-Care Disability,Region IV-A (CALABARZON),16057291,Age: 20-34,7005
+Visual Disability,Region IV-A (CALABARZON),16057291,Age: 20-34,95978
+Cognitive Disability,Region IX (Zamboanga Peninsula),3782761,Age: 20-34,4762
+Communication Disability,Region IX (Zamboanga Peninsula),3782761,Age: 20-34,3820
+Hearing Disability,Region IX (Zamboanga Peninsula),3782761,Age: 20-34,3013
+Mobility Disability,Region IX (Zamboanga Peninsula),3782761,Age: 20-34,2844
+Self-Care Disability,Region IX (Zamboanga Peninsula),3782761,Age: 20-34,2266
+Visual Disability,Region IX (Zamboanga Peninsula),3782761,Age: 20-34,10368
+Cognitive Disability,Region V (Bicol Region),6133835,Age: 20-34,8455
+Communication Disability,Region V (Bicol Region),6133835,Age: 20-34,7545
+Hearing Disability,Region V (Bicol Region),6133835,Age: 20-34,8098
+Mobility Disability,Region V (Bicol Region),6133835,Age: 20-34,6257
+Self-Care Disability,Region V (Bicol Region),6133835,Age: 20-34,3628
+Visual Disability,Region V (Bicol Region),6133835,Age: 20-34,25687
+Cognitive Disability,Region VI (Western Visayas),7904895,Age: 20-34,10033
+Communication Disability,Region VI (Western Visayas),7904895,Age: 20-34,8568
+Hearing Disability,Region VI (Western Visayas),7904895,Age: 20-34,6567
+Mobility Disability,Region VI (Western Visayas),7904895,Age: 20-34,6648
+Self-Care Disability,Region VI (Western Visayas),7904895,Age: 20-34,4709
+Visual Disability,Region VI (Western Visayas),7904895,Age: 20-34,24737
+Cognitive Disability,Region VII (Central Visayas),7957045,Age: 20-34,11172
+Communication Disability,Region VII (Central Visayas),7957045,Age: 20-34,8548
+Hearing Disability,Region VII (Central Visayas),7957045,Age: 20-34,7187
+Mobility Disability,Region VII (Central Visayas),7957045,Age: 20-34,6329
+Self-Care Disability,Region VII (Central Visayas),7957045,Age: 20-34,4517
+Visual Disability,Region VII (Central Visayas),7957045,Age: 20-34,30498
+Cognitive Disability,Region VIII (Eastern Visayas),4742342,Age: 20-34,6560
+Communication Disability,Region VIII (Eastern Visayas),4742342,Age: 20-34,4945
+Hearing Disability,Region VIII (Eastern Visayas),4742342,Age: 20-34,5166
+Mobility Disability,Region VIII (Eastern Visayas),4742342,Age: 20-34,4073
+Self-Care Disability,Region VIII (Eastern Visayas),4742342,Age: 20-34,2467
+Visual Disability,Region VIII (Eastern Visayas),4742342,Age: 20-34,16322
+Cognitive Disability,Region X (Northern Mindanao),5017050,Age: 20-34,7114
+Communication Disability,Region X (Northern Mindanao),5017050,Age: 20-34,5682
+Hearing Disability,Region X (Northern Mindanao),5017050,Age: 20-34,4659
+Mobility Disability,Region X (Northern Mindanao),5017050,Age: 20-34,4042
+Self-Care Disability,Region X (Northern Mindanao),5017050,Age: 20-34,3136
+Visual Disability,Region X (Northern Mindanao),5017050,Age: 20-34,14495
+Cognitive Disability,Region XIII (Caraga),2753107,Age: 20-34,5178
+Communication Disability,Region XIII (Caraga),2753107,Age: 20-34,3222
+Hearing Disability,Region XIII (Caraga),2753107,Age: 20-34,3138
+Mobility Disability,Region XIII (Caraga),2753107,Age: 20-34,2569
+Self-Care Disability,Region XIII (Caraga),2753107,Age: 20-34,1670
+Visual Disability,Region XIII (Caraga),2753107,Age: 20-34,8780
+Cognitive Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 35–54,11586
+Communication Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 35–54,5951
+Hearing Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 35–54,13279
+Mobility Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 35–54,13612
+Self-Care Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 35–54,6008
+Visual Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 35–54,43105
+Cognitive Disability,Cordillera Administrative Region (CAR),1807739,Age: 35–54,6404
+Communication Disability,Cordillera Administrative Region (CAR),1807739,Age: 35–54,2037
+Hearing Disability,Cordillera Administrative Region (CAR),1807739,Age: 35–54,6113
+Mobility Disability,Cordillera Administrative Region (CAR),1807739,Age: 35–54,6628
+Self-Care Disability,Cordillera Administrative Region (CAR),1807739,Age: 35–54,1691
+Visual Disability,Cordillera Administrative Region (CAR),1807739,Age: 35–54,28590
+Cognitive Disability,MIMAROPA Region,3174856,Age: 35–54,16150
+Communication Disability,MIMAROPA Region,3174856,Age: 35–54,3901
+Hearing Disability,MIMAROPA Region,3174856,Age: 35–54,12624
+Mobility Disability,MIMAROPA Region,3174856,Age: 35–54,12769
+Self-Care Disability,MIMAROPA Region,3174856,Age: 35–54,2788
+Visual Disability,MIMAROPA Region,3174856,Age: 35–54,97288
+Cognitive Disability,National Capital Region (NCR),13804656,Age: 35–54,17369
+Communication Disability,National Capital Region (NCR),13804656,Age: 35–54,12102
+Hearing Disability,National Capital Region (NCR),13804656,Age: 35–54,24029
+Mobility Disability,National Capital Region (NCR),13804656,Age: 35–54,27711
+Self-Care Disability,National Capital Region (NCR),13804656,Age: 35–54,8859
+Visual Disability,National Capital Region (NCR),13804656,Age: 35–54,261641
+Cognitive Disability,REGION XI (DAVAO REGION),5290867,Age: 35–54,19858
+Communication Disability,REGION XI (DAVAO REGION),5290867,Age: 35–54,5566
+Hearing Disability,REGION XI (DAVAO REGION),5290867,Age: 35–54,12626
+Mobility Disability,REGION XI (DAVAO REGION),5290867,Age: 35–54,15061
+Self-Care Disability,REGION XI (DAVAO REGION),5290867,Age: 35–54,3989
+Visual Disability,REGION XI (DAVAO REGION),5290867,Age: 35–54,101727
+Cognitive Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 35–54,29797
+Communication Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 35–54,7432
+Hearing Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 35–54,18482
+Mobility Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 35–54,21249
+Self-Care Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 35–54,5704
+Visual Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 35–54,125353
+Cognitive Disability,Region I (Ilocos Region),5270807,Age: 35–54,10710
+Communication Disability,Region I (Ilocos Region),5270807,Age: 35–54,5861
+Hearing Disability,Region I (Ilocos Region),5270807,Age: 35–54,14558
+Mobility Disability,Region I (Ilocos Region),5270807,Age: 35–54,15265
+Self-Care Disability,Region I (Ilocos Region),5270807,Age: 35–54,3987
+Visual Disability,Region I (Ilocos Region),5270807,Age: 35–54,114978
+Cognitive Disability,Region II (Cagayan Valley),3657746,Age: 35–54,12045
+Communication Disability,Region II (Cagayan Valley),3657746,Age: 35–54,4090
+Hearing Disability,Region II (Cagayan Valley),3657746,Age: 35–54,13520
+Mobility Disability,Region II (Cagayan Valley),3657746,Age: 35–54,14681
+Self-Care Disability,Region II (Cagayan Valley),3657746,Age: 35–54,3099
+Visual Disability,Region II (Cagayan Valley),3657746,Age: 35–54,98179
+Cognitive Disability,Region III (Central Luzon),12313714,Age: 35–54,20258
+Communication Disability,Region III (Central Luzon),12313714,Age: 35–54,11809
+Hearing Disability,Region III (Central Luzon),12313714,Age: 35–54,28790
+Mobility Disability,Region III (Central Luzon),12313714,Age: 35–54,31577
+Self-Care Disability,Region III (Central Luzon),12313714,Age: 35–54,8208
+Visual Disability,Region III (Central Luzon),12313714,Age: 35–54,292930
+Cognitive Disability,Region IV-A (CALABARZON),16057291,Age: 35–54,27967
+Communication Disability,Region IV-A (CALABARZON),16057291,Age: 35–54,15431
+Hearing Disability,Region IV-A (CALABARZON),16057291,Age: 35–54,33326
+Mobility Disability,Region IV-A (CALABARZON),16057291,Age: 35–54,38394
+Self-Care Disability,Region IV-A (CALABARZON),16057291,Age: 35–54,10712
+Visual Disability,Region IV-A (CALABARZON),16057291,Age: 35–54,309898
+Cognitive Disability,Region IX (Zamboanga Peninsula),3782761,Age: 35–54,13670
+Communication Disability,Region IX (Zamboanga Peninsula),3782761,Age: 35–54,4203
+Hearing Disability,Region IX (Zamboanga Peninsula),3782761,Age: 35–54,9244
+Mobility Disability,Region IX (Zamboanga Peninsula),3782761,Age: 35–54,11046
+Self-Care Disability,Region IX (Zamboanga Peninsula),3782761,Age: 35–54,3529
+Visual Disability,Region IX (Zamboanga Peninsula),3782761,Age: 35–54,69243
+Cognitive Disability,Region V (Bicol Region),6133835,Age: 35–54,21289
+Communication Disability,Region V (Bicol Region),6133835,Age: 35–54,7792
+Hearing Disability,Region V (Bicol Region),6133835,Age: 35–54,21720
+Mobility Disability,Region V (Bicol Region),6133835,Age: 35–54,24101
+Self-Care Disability,Region V (Bicol Region),6133835,Age: 35–54,4959
+Visual Disability,Region V (Bicol Region),6133835,Age: 35–54,143771
+Cognitive Disability,Region VI (Western Visayas),7904895,Age: 35–54,29505
+Communication Disability,Region VI (Western Visayas),7904895,Age: 35–54,9934
+Hearing Disability,Region VI (Western Visayas),7904895,Age: 35–54,20647
+Mobility Disability,Region VI (Western Visayas),7904895,Age: 35–54,24900
+Self-Care Disability,Region VI (Western Visayas),7904895,Age: 35–54,7163
+Visual Disability,Region VI (Western Visayas),7904895,Age: 35–54,147466
+Cognitive Disability,Region VII (Central Visayas),7957045,Age: 35–54,26212
+Communication Disability,Region VII (Central Visayas),7957045,Age: 35–54,9029
+Hearing Disability,Region VII (Central Visayas),7957045,Age: 35–54,18480
+Mobility Disability,Region VII (Central Visayas),7957045,Age: 35–54,21541
+Self-Care Disability,Region VII (Central Visayas),7957045,Age: 35–54,6205
+Visual Disability,Region VII (Central Visayas),7957045,Age: 35–54,120068
+Cognitive Disability,Region VIII (Eastern Visayas),4742342,Age: 35–54,18012
+Communication Disability,Region VIII (Eastern Visayas),4742342,Age: 35–54,5211
+Hearing Disability,Region VIII (Eastern Visayas),4742342,Age: 35–54,16251
+Mobility Disability,Region VIII (Eastern Visayas),4742342,Age: 35–54,17377
+Self-Care Disability,Region VIII (Eastern Visayas),4742342,Age: 35–54,3395
+Visual Disability,Region VIII (Eastern Visayas),4742342,Age: 35–54,105130
+Cognitive Disability,Region X (Northern Mindanao),5017050,Age: 35–54,16575
+Communication Disability,Region X (Northern Mindanao),5017050,Age: 35–54,5538
+Hearing Disability,Region X (Northern Mindanao),5017050,Age: 35–54,12061
+Mobility Disability,Region X (Northern Mindanao),5017050,Age: 35–54,12580
+Self-Care Disability,Region X (Northern Mindanao),5017050,Age: 35–54,4340
+Visual Disability,Region X (Northern Mindanao),5017050,Age: 35–54,75728
+Cognitive Disability,Region XIII (Caraga),2753107,Age: 35–54,12844
+Communication Disability,Region XIII (Caraga),2753107,Age: 35–54,3087
+Hearing Disability,Region XIII (Caraga),2753107,Age: 35–54,8103
+Mobility Disability,Region XIII (Caraga),2753107,Age: 35–54,8397
+Self-Care Disability,Region XIII (Caraga),2753107,Age: 35–54,2137
+Visual Disability,Region XIII (Caraga),2753107,Age: 35–54,51030
+Cognitive Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 55-80+,28781
+Communication Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 55-80+,14816
+Hearing Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 55-80+,40994
+Mobility Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 55-80+,39877
+Self-Care Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 55-80+,19612
+Visual Disability,BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO (BARMM),4183315,Age: 55-80+,69788
+Cognitive Disability,Cordillera Administrative Region (CAR),1807739,Age: 55-80+,22644
+Communication Disability,Cordillera Administrative Region (CAR),1807739,Age: 55-80+,5906
+Hearing Disability,Cordillera Administrative Region (CAR),1807739,Age: 55-80+,32754
+Mobility Disability,Cordillera Administrative Region (CAR),1807739,Age: 55-80+,35005
+Self-Care Disability,Cordillera Administrative Region (CAR),1807739,Age: 55-80+,8920
+Visual Disability,Cordillera Administrative Region (CAR),1807739,Age: 55-80+,61235
+Cognitive Disability,MIMAROPA Region,3174856,Age: 55-80+,40871
+Communication Disability,MIMAROPA Region,3174856,Age: 55-80+,10523
+Hearing Disability,MIMAROPA Region,3174856,Age: 55-80+,54045
+Mobility Disability,MIMAROPA Region,3174856,Age: 55-80+,58142
+Self-Care Disability,MIMAROPA Region,3174856,Age: 55-80+,14068
+Visual Disability,MIMAROPA Region,3174856,Age: 55-80+,157435
+Cognitive Disability,National Capital Region (NCR),13804656,Age: 55-80+,55722
+Communication Disability,National Capital Region (NCR),13804656,Age: 55-80+,25389
+Hearing Disability,National Capital Region (NCR),13804656,Age: 55-80+,102968
+Mobility Disability,National Capital Region (NCR),13804656,Age: 55-80+,124661
+Self-Care Disability,National Capital Region (NCR),13804656,Age: 55-80+,35974
+Visual Disability,National Capital Region (NCR),13804656,Age: 55-80+,383114
+Cognitive Disability,REGION XI (DAVAO REGION),5290867,Age: 55-80+,47015
+Communication Disability,REGION XI (DAVAO REGION),5290867,Age: 55-80+,13543
+Hearing Disability,REGION XI (DAVAO REGION),5290867,Age: 55-80+,59060
+Mobility Disability,REGION XI (DAVAO REGION),5290867,Age: 55-80+,60258
+Self-Care Disability,REGION XI (DAVAO REGION),5290867,Age: 55-80+,18650
+Visual Disability,REGION XI (DAVAO REGION),5290867,Age: 55-80+,173977
+Cognitive Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 55-80+,69774
+Communication Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 55-80+,18995
+Hearing Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 55-80+,84191
+Mobility Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 55-80+,82085
+Self-Care Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 55-80+,26447
+Visual Disability,REGION XII (SOCCSKSARGEN),4919935,Age: 55-80+,219188
+Cognitive Disability,Region I (Ilocos Region),5270807,Age: 55-80+,51605
+Communication Disability,Region I (Ilocos Region),5270807,Age: 55-80+,17662
+Hearing Disability,Region I (Ilocos Region),5270807,Age: 55-80+,95951
+Mobility Disability,Region I (Ilocos Region),5270807,Age: 55-80+,93670
+Self-Care Disability,Region I (Ilocos Region),5270807,Age: 55-80+,26450
+Visual Disability,Region I (Ilocos Region),5270807,Age: 55-80+,244393
+Cognitive Disability,Region II (Cagayan Valley),3657746,Age: 55-80+,42714
+Communication Disability,Region II (Cagayan Valley),3657746,Age: 55-80+,12120
+Hearing Disability,Region II (Cagayan Valley),3657746,Age: 55-80+,70409
+Mobility Disability,Region II (Cagayan Valley),3657746,Age: 55-80+,66867
+Self-Care Disability,Region II (Cagayan Valley),3657746,Age: 55-80+,16344
+Visual Disability,Region II (Cagayan Valley),3657746,Age: 55-80+,179795
+Cognitive Disability,Region III (Central Luzon),12313714,Age: 55-80+,70476
+Communication Disability,Region III (Central Luzon),12313714,Age: 55-80+,28034
+Hearing Disability,Region III (Central Luzon),12313714,Age: 55-80+,136083
+Mobility Disability,Region III (Central Luzon),12313714,Age: 55-80+,153675
+Self-Care Disability,Region III (Central Luzon),12313714,Age: 55-80+,40361
+Visual Disability,Region III (Central Luzon),12313714,Age: 55-80+,465966
+Cognitive Disability,Region IV-A (CALABARZON),16057291,Age: 55-80+,82689
+Communication Disability,Region IV-A (CALABARZON),16057291,Age: 55-80+,33136
+Hearing Disability,Region IV-A (CALABARZON),16057291,Age: 55-80+,148885
+Mobility Disability,Region IV-A (CALABARZON),16057291,Age: 55-80+,170578
+Self-Care Disability,Region IV-A (CALABARZON),16057291,Age: 55-80+,45075
+Visual Disability,Region IV-A (CALABARZON),16057291,Age: 55-80+,483403
+Cognitive Disability,Region IX (Zamboanga Peninsula),3782761,Age: 55-80+,40437
+Communication Disability,Region IX (Zamboanga Peninsula),3782761,Age: 55-80+,11726
+Hearing Disability,Region IX (Zamboanga Peninsula),3782761,Age: 55-80+,51634
+Mobility Disability,Region IX (Zamboanga Peninsula),3782761,Age: 55-80+,51522
+Self-Care Disability,Region IX (Zamboanga Peninsula),3782761,Age: 55-80+,16122
+Visual Disability,Region IX (Zamboanga Peninsula),3782761,Age: 55-80+,135412
+Cognitive Disability,Region V (Bicol Region),6133835,Age: 55-80+,66448
+Communication Disability,Region V (Bicol Region),6133835,Age: 55-80+,20272
+Hearing Disability,Region V (Bicol Region),6133835,Age: 55-80+,97899
+Mobility Disability,Region V (Bicol Region),6133835,Age: 55-80+,111786
+Self-Care Disability,Region V (Bicol Region),6133835,Age: 55-80+,26792
+Visual Disability,Region V (Bicol Region),6133835,Age: 55-80+,255221
+Cognitive Disability,Region VI (Western Visayas),7904895,Age: 55-80+,108222
+Communication Disability,Region VI (Western Visayas),7904895,Age: 55-80+,29892
+Hearing Disability,Region VI (Western Visayas),7904895,Age: 55-80+,132502
+Mobility Disability,Region VI (Western Visayas),7904895,Age: 55-80+,136365
+Self-Care Disability,Region VI (Western Visayas),7904895,Age: 55-80+,42145
+Visual Disability,Region VI (Western Visayas),7904895,Age: 55-80+,343517
+Cognitive Disability,Region VII (Central Visayas),7957045,Age: 55-80+,82167
+Communication Disability,Region VII (Central Visayas),7957045,Age: 55-80+,24775
+Hearing Disability,Region VII (Central Visayas),7957045,Age: 55-80+,108377
+Mobility Disability,Region VII (Central Visayas),7957045,Age: 55-80+,121403
+Self-Care Disability,Region VII (Central Visayas),7957045,Age: 55-80+,34061
+Visual Disability,Region VII (Central Visayas),7957045,Age: 55-80+,246124
+Cognitive Disability,Region VIII (Eastern Visayas),4742342,Age: 55-80+,56810
+Communication Disability,Region VIII (Eastern Visayas),4742342,Age: 55-80+,15247
+Hearing Disability,Region VIII (Eastern Visayas),4742342,Age: 55-80+,83319
+Mobility Disability,Region VIII (Eastern Visayas),4742342,Age: 55-80+,87529
+Self-Care Disability,Region VIII (Eastern Visayas),4742342,Age: 55-80+,21084
+Visual Disability,Region VIII (Eastern Visayas),4742342,Age: 55-80+,207915
+Cognitive Disability,Region X (Northern Mindanao),5017050,Age: 55-80+,43521
+Communication Disability,Region X (Northern Mindanao),5017050,Age: 55-80+,13390
+Hearing Disability,Region X (Northern Mindanao),5017050,Age: 55-80+,59775
+Mobility Disability,Region X (Northern Mindanao),5017050,Age: 55-80+,55168
+Self-Care Disability,Region X (Northern Mindanao),5017050,Age: 55-80+,18641
+Visual Disability,Region X (Northern Mindanao),5017050,Age: 55-80+,145318
+Cognitive Disability,Region XIII (Caraga),2753107,Age: 55-80+,31596
+Communication Disability,Region XIII (Caraga),2753107,Age: 55-80+,7837
+Hearing Disability,Region XIII (Caraga),2753107,Age: 55-80+,38422
+Mobility Disability,Region XIII (Caraga),2753107,Age: 55-80+,35632
+Self-Care Disability,Region XIII (Caraga),2753107,Age: 55-80+,10887
+Visual Disability,Region XIII (Caraga),2753107,Age: 55-80+,94941
