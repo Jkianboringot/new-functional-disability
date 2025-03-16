@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import os
 import json
 import plotly.express as px
-import pickle
+
 
 
 pwd=os.getcwd()
@@ -20,7 +20,7 @@ total_disability_population=pd.read_csv(pwd+"/functional_difficulty_dataset/keep
 
 
 ages_groupby=(df.loc[(df["Sex"] == "Both Sexes") & (df["Status"] == "All")]
-    .groupby(["Region","Disability"], as_index=False)[['Age: 5-19',"Age: 20-34","Age: 35–54","Age: 55-80+","Household Population 5 Years Old and Over with Functional Difficulty"]]
+    .groupby(["Region","Province","Disability"], as_index=False)[['Age: 5-19',"Age: 20-34","Age: 35–54","Age: 55-80+","Household Population 5 Years Old and Over with Functional Difficulty"]]
     .sum()
     )
 
@@ -31,9 +31,9 @@ group_age_to_viz=age_to_viz.groupby("age/ave_affected",as_index=False)["age affe
 
 @st.cache_data
 def pivot_table():
-    return {"age_regional_disibality_pivot":age_regional_disibality.pivot_table(index="Region",columns="Disability").head(5),
-    "gender_serverity_disability_pivot":gender_serverity_disability.pivot_table(index=["Region","Sex","Status"],columns=["Disability"]),
-    "top_disability_region":ages_groupby.pivot_table(index=["Region"],aggfunc="max")
+    return {"age_regional_disibality_pivot":age_regional_disibality.pivot_table(index=["Region","Province"],columns="Disability").head(5),
+    "gender_serverity_disability_pivot":gender_serverity_disability.pivot_table(index=["Region","Sex","Status","Province"],columns=["Disability"]),
+    "top_disability_region":ages_groupby.pivot_table(index=["Region","Province"],aggfunc="max")
     }
     
 

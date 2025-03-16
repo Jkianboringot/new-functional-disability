@@ -5,7 +5,7 @@ import pandas as pd
 
 st.set_page_config(page_title="PH Fucntional Disability Distribution",page_icon=":zany_face:",layout="wide")
 st.title("Philippine Fucntional Disability For Household Population Five Years Old and Over")
-st.markdown("choroleth visualization for people with **fucntional disability** by region/province  in phillipines")
+
 
 
 def app_GUI():
