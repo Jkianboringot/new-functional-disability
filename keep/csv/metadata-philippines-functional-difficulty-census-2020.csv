@@ -1,0 +1,29 @@
+Field,Label,Value
+id,Dataset ID,3895185b-e959-4c57-b6c6-2c1edbe2f439
+title,Title of Dataset,Philippines functional difficulty census 2020
+name,Dataset URL,philippines-functional-difficulty-census-2020
+notes,Description,"Philippines: Household Population 5 Years Old and Over by Functional Difficulty, Severity, Age Group, Sex, and City/Municipality Census 2020"
+dataset_source,Source,PSA Census 2020
+organization,Contributor,OCHA Philippines
+dataset_date,Reference Period,[2023-11-08T00:00:00 TO 2023-11-08T23:59:59]
+last_modified,Updated,2023-11-08T02:17:07.990144
+data_update_frequency,Expected Update Frequency,As needed
+groups,Location,Philippines
+license_title,License,Creative Commons Attribution International
+methodology,Methodology,Census
+methodology_other,Define Methodology,
+caveats,Caveats/Comments,
+tags,Tags,"census, disability, sex and age disaggregated data-sadd"
+resource_1_created,Created,2023-11-08T02:17:08.348847
+resource_1_description,Description,"Philippines: Household Population 5 Years Old and Over by Functional Difficulty, Severity, Age Group, Sex, and City/Municipality Census 2020"
+resource_1_format,File Format,XLSX
+resource_1_download_url,Download URL,https://data.humdata.org/dataset/3895185b-e959-4c57-b6c6-2c1edbe2f439/resource/99744acf-5ee2-4a5b-b2fa-d13f60be1ede/download/hh-functional-difficulty-severity-age-group-mun-census2020.xlsx
+resource_1_id,Resource ID,99744acf-5ee2-4a5b-b2fa-d13f60be1ede
+resource_1_last_modified,Updated,2023-11-08T02:17:07.990144
+resource_1_metadata_modified,Metadata Updated,2023-11-08T07:40:15.894148
+resource_1_microdata,Microdata,False
+resource_1_dataset_id,Dataset ID,3895185b-e959-4c57-b6c6-2c1edbe2f439
+resource_1_resource_type,Resource Type,file.upload
+resource_1_name,Resource Name,HH Functional Difficulty Severity Age Group Mun Census2020.xlsx
+resource_1_mimetype,MIME Type,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+resource_1_size,Size,15.0M

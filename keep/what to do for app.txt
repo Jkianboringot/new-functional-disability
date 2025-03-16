@@ -77,4 +77,4 @@ ok for one hour i need to finish seperating code into files and organize file th
 #maybe i should just put all this gorup by in a new file but do the app first
 	-no instead i just save them as afile then read them that way its easier to access them and am making them for user to see anyway
 	so may as well use them to make the code cleaner
-fix geolocation seems useless
+ok mostly done i just need to clean the file

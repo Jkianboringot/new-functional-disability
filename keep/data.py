@@ -29,7 +29,7 @@ group_age_to_viz=age_to_viz.groupby("age/ave_affected",as_index=False)["age affe
 
 
 
-
+@st.cache_data
 def pivot_table():
     return {"age_regional_disibality_pivot":age_regional_disibality.pivot_table(index="Region",columns="Disability").head(5),
     "gender_serverity_disability_pivot":gender_serverity_disability.pivot_table(index=["Region","Sex","Status"],columns=["Disability"]),
@@ -38,7 +38,7 @@ def pivot_table():
     
 
 
-
+@st.cache_data
 def groupbys(group:Union[str, list[str]]):
     return df.loc[(df["Sex"] != "Both Sexes")& (df["Status"] != "All") ].groupby(group, 
              as_index=False)["Household Population 5 Years Old and Over with Functional Difficulty"].sum()
@@ -47,7 +47,6 @@ def groupbys(group:Union[str, list[str]]):
 def check_file(reg_prov_fol,file):
      check=os.path.join(reg_prov_fol,file)
      try:
-       
           if os.path.exists(check):
                return json.load(open(check,"r"))
           else:
@@ -55,6 +54,7 @@ def check_file(reg_prov_fol,file):
      except FileNotFoundError:
                print(f"File {check} dont exist")
 
+@st.cache_data
 def fig_layout(fig,var:str):
      
         if var == "choro":                     
@@ -90,11 +90,11 @@ colors = px.colors.sample_colorscale("Plasma", color_scale_values)
 choro="choro"
 viz="viz"
 
-st.cache_data()
+@st.cache_data()
 def dataframe():
      return df
 
-st.cache_data()
+@st.cache_data()
 def region_figure(x:str):# -> Any:
     value=total_disability_population.loc[total_disability_population["Status"]==(x).capitalize().strip()]
     geojson_prov=pwd+"/functional_difficulty_dataset/keep/geojson/regions"
@@ -129,7 +129,7 @@ def regcode():
 dic_regcode=regcode()
 
 
-st.cache_data()
+@st.cache_data()
 def province_figure(y,x):# -> An
     
     geojson_prov=pwd+"/functional_difficulty_dataset/keep/geojson/provinces"
@@ -155,7 +155,7 @@ province_figure(y="Region V",x="moderate")
 
 
 
-st.cache_data()       
+@st.cache_data()       
 def bar_fig(fig:str):
     if fig == "Age":
         figage=px.bar(group_age_to_viz,x="age/ave_affected",y="age affection",
@@ -180,7 +180,7 @@ def bar_fig(fig:str):
 
 
 
-st.cache_data()
+@st.cache_data()
 def scatter_fig(fig):
     
     figsc = go.Figure()
@@ -213,7 +213,7 @@ def scatter_fig(fig):
 
 
 
-st.cache_data()      
+@st.cache_data()      
 def Pie_fig(fig:str):
     figpie = go.Figure()
     
