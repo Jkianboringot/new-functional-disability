@@ -4,15 +4,19 @@ import streamlit as st
 st.set_page_config(page_title="PH Fucntional Disability Distribution",page_icon=":zany_face:",layout="wide")
 st.title("Philippine Fucntional Disability For Household Population Five Years Old and Over")
 
+
 import data as dt
-import pandas as pd 
+
+
 
 def app_GUI():
+ 
     sidemenu = st.sidebar.selectbox(
     "Visualizations",
     ("Home", "Map Plot", "Bar Chart","Scatter Plot","Pie Chart")
 )
     if sidemenu == "Home":
+         
          st.subheader("DataFrame")
          pt=dt.pivot_table()
          st.dataframe(dt.dataframe(),use_container_width=False,height=None)   
@@ -21,7 +25,7 @@ def app_GUI():
          st.dataframe(pt["top_disability_region"],use_container_width=True,height=None)
          st.dataframe(pt["age_regional_disibality_pivot"],use_container_width=True,height=None)
          st.subheader("DateFrame Info")   
-         st.dataframe(dt.df.describe())
+         st.dataframe(dt.dataframe().describe())
 
     elif sidemenu == "Map Plot":
         st.subheader("Map Visualization") 
