@@ -9,7 +9,7 @@ import plotly.express as px
 
 
 
-pwd=os.path.join(os.getcwd(),"functional_difficulty_dataset")
+pwd=os.path.join(os.getcwd())
 df=pd.read_csv(pwd+"/csv/func_dis_dataset.csv")
 geolocation = json.load(open(pwd+"/geojson/regions/regions.0.01.json","r"))
 age_regional_disibality=pd.read_csv(pwd+"/csv/groupbys_dataset/age_regional_disibality.csv")
