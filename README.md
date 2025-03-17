@@ -20,3 +20,7 @@ In 2016, Republic Act No. 10754 was enacted to expand the benefits and privilege
 ![](images/Choroleth_region.png)
 ![](images/Scatter_plot1.png)
 ![](images/Whisker_plot2.png)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 455ea7cc62795308e43f1d3b32236b5b301e7276
