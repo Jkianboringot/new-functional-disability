@@ -1,6 +1,6 @@
 # Functional Difficulty in the Philippines
 A web application providing a visual representation using a choropleth map of the estimated magnitude of poor families in the Philippines from the years 2006, 2009, 2012, and 2015. 
-* See live: [https://ph-poverty-area-estimates.streamlit.app](https://jkianboringot-functional-disability.streamlit.app/)
+* See live: https://jkianboringot-functional-disability.streamlit.app/
 * View process: https://hyoaru.github.io/philippine-poverty-area-estimates-choropleth/
 
 ### Philippines:Functional Difficulty in the Philippines: Household Population Five Years Old and Over (2020 Census) Statistics Dataset
