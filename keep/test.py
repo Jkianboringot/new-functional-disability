@@ -1,2 +1,3 @@
 import os
-print(os.listdir("functional_difficulty_dataset"))
+pwd=os.getcwd()
+print(pwd)
