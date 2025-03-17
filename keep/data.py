@@ -113,7 +113,6 @@ def region_figure(x:str):# -> Any:
                     hover_name="Region",color_continuous_scale=colors)
         fig.update_geos(fitbounds="locations",visible=False)
         fig_layout(fig,choro) 
-
         
         return fig
 region_figure(x="severe")

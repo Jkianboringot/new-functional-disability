@@ -1,12 +1,11 @@
-import data as dt
-import streamlit as st
-import pandas as pd 
 
+import streamlit as st
 
 st.set_page_config(page_title="PH Fucntional Disability Distribution",page_icon=":zany_face:",layout="wide")
 st.title("Philippine Fucntional Disability For Household Population Five Years Old and Over")
 
-
+import data as dt
+import pandas as pd 
 
 def app_GUI():
     sidemenu = st.sidebar.selectbox(
