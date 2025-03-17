@@ -10,12 +10,12 @@ import plotly.express as px
 
 
 pwd=os.path.join(os.getcwd(),"functional_difficulty_dataset")
-df=pd.read_csv(pwd+"/keep/csv/func_dis_dataset.csv")
+df=pd.read_csv(pwd+"/func_dis_dataset.csv")
 geolocation = json.load(open(pwd+"/keep/geojson/regions/regions.0.01.json","r"))
-age_regional_disibality=pd.read_csv(pwd+"/keep/csv/groupbys_dataset/age_regional_disibality.csv")
-gender_serverity_disability=pd.read_csv(pwd+"/keep/csv/groupbys_dataset/gender_serverity_disability.csv")
-age_to_viz=pd.read_csv(pwd+"/keep/csv/groupbys_dataset/age_to_viz.csv")
-total_disability_population=pd.read_csv(pwd+"/keep/csv/groupbys_dataset/total_disability_population.csv")
+age_regional_disibality=pd.read_csv(pwd+"/groupbys_dataset/age_regional_disibality.csv")
+gender_serverity_disability=pd.read_csv(pwd+"/groupbys_dataset/gender_serverity_disability.csv")
+age_to_viz=pd.read_csv(pwd+"/groupbys_dataset/age_to_viz.csv")
+total_disability_population=pd.read_csv(pwd+"/groupbys_dataset/total_disability_population.csv")
 
 
 
