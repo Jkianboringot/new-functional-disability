@@ -16,7 +16,8 @@ In 2016, Republic Act No. 10754 was enacted to expand the benefits and privilege
 • Geojson file from: faeldon/philippines-json-maps<br>
 
 ## Interface preview
-![](previews/1.png)
-![](previews/2.png)
-![](previews/3.png)
-![](previews/4.png)
+![](images/Bar_chart1.png)
+![](images/Choroleth_region.png)
+![](images/Scatter_plot1.png)
+![](images/Whisker_plot2.png)
+
