@@ -31,43 +31,17 @@ This makes patterns obvious and supports **data-driven decisions**.
 
 ---
 
-## 🔹 Key Features
-- **Regional filtering** by province/area  
-- **Disability-type selection**  
-- **Color-coded severity map** for easy comparison  
-- **Interactive charts & graphs**  
-- **Real-time visual insights** from raw data  
+## 🔹 Architecture Diagram
 
----
+```mermaid
+flowchart LR
 
-## 🔹 Impact
-- ✅ Helps NGOs and government agencies prioritize funding  
-- ✅ Identifies underserved communities faster  
-- ✅ Supports evidence-based planning  
-- ✅ Makes complex data understandable for non-technical stakeholders  
-- ✅ Promotes better support for children, adults, and elderly persons with disabilities  
+A[Raw Data Sources<br/>CSV • Excel • Government Reports]
+--> B[Data Cleaning<br/>Pandas • NumPy]
 
----
+B --> C[Data Analysis<br/>Aggregation • Statistics]
+C --> D[Visualization Layer<br/>Matplotlib • Plotly]
 
-## 🔹 Technologies Used
-- **Python**
-- **Jupyter Notebook**
-- **Pandas** – data cleaning & processing
-- **NumPy** – numerical analysis
-- **Matplotlib & Plotly** – visualizations
-- **Streamlit** – interactive web dashboard
+D --> E[Streamlit Dashboard<br/>Interactive UI]
 
----
-
-## 🔹 Who This Project Is For
-- Government agencies  
-- NGOs & non-profits  
-- Policy makers  
-- Researchers  
-- Anyone working in public health or social services  
-
----
-
-## 🔹 Project Type
-Data Science • Data Visualization • Social Impact • Interactive Dashboard
-
+E --> F[Users<br/>NGOs • Government • Researchers]
