@@ -1,27 +1,73 @@
-# Functional Difficulty in the Philippines <br>
+# ♿ Philippine Regional Disability Analysis Dashboard
 
-A web application providing a visual representation using a choropleth map of the estimated magnitude of poor families in the Philippines from the years 2006, 2009, 2012, and 2015. 
-* See live: https://jkianboringot-functional-disability.streamlit.app/
-* View process: https://nbviewer.org/github/Jkianboringot/new-functional-disability/blob/main/keep/main.ipynb
+## About the Project
+Access to proper support and funding for persons with disabilities often depends on **knowing where help is needed most**.  
+However, raw government data can be difficult to interpret and analyze quickly.
 
-### Philippines:Functional Difficulty in the Philippines: Household Population Five Years Old and Over (2020 Census) Statistics Dataset
+This project is an **interactive data visualization dashboard** that analyzes and displays **regional disability patterns across the Philippines**, helping organizations and decision-makers allocate resources more effectively.
 
-Base on the Republic Act No. 7277, known as the "Magna Carta for Disabled Persons," was enacted on March 24, 1992. This law aims to promote the rehabilitation, self-development, and integration of persons with disabilities (PWDs) into mainstream society. It ensures equal opportunities and access to education, employment, health services, and social integration for PWDs.
+It transforms complex datasets into **clear, visual insights** that anyone can understand.
 
-In 2016, Republic Act No. 10754 was enacted to expand the benefits and privileges of PWDs, further reinforcing the government's commitment to their welfare and inclusion.
+---
 
-• Data Source: https://psa.gov.ph/content/functional-difficulty-philippines-household-population-five-years-old-and-over-2020-census<br> 
-• Data from: https://data.humdata.org/dataset/philippines-functional-difficulty-census-2020<br> 
-• Data from: https://data.humdata.org/dataset/philippines-population-projection-2020-2025-admin3 <br>
-• Geojson file from: faeldon/philippines-json-maps<br>
+## 🔹 The Problem
+Before this tool:
+- 📊 Disability data existed mostly in spreadsheets and reports.
+- ❌ Hard to compare regions quickly.
+- ❌ Difficult for organizations to identify which areas need urgent support.
+- ❌ Slower and less informed funding decisions.
 
-## Interface preview
-#### Bar
-![](images/Bar_chart1.png)
-#### Choroleth 
-![](images/Choroleth_region.png)
-#### Scatter
-![](images/Scatter_plot1.png)
-#### Whisker
-![](images/Whisker_plot2.png)
+---
+
+## 🔹 Solution
+An **interactive map-based dashboard** where users can:
+
+- 🗺️ Select a specific region in the Philippines  
+- ♿ Filter by type of disability  
+- 🎨 View severity using color-coded visualization  
+- 📈 Instantly see counts and distribution  
+
+This makes patterns obvious and supports **data-driven decisions**.
+
+---
+
+## 🔹 Key Features
+- **Regional filtering** by province/area  
+- **Disability-type selection**  
+- **Color-coded severity map** for easy comparison  
+- **Interactive charts & graphs**  
+- **Real-time visual insights** from raw data  
+
+---
+
+## 🔹 Impact
+- ✅ Helps NGOs and government agencies prioritize funding  
+- ✅ Identifies underserved communities faster  
+- ✅ Supports evidence-based planning  
+- ✅ Makes complex data understandable for non-technical stakeholders  
+- ✅ Promotes better support for children, adults, and elderly persons with disabilities  
+
+---
+
+## 🔹 Technologies Used
+- **Python**
+- **Jupyter Notebook**
+- **Pandas** – data cleaning & processing
+- **NumPy** – numerical analysis
+- **Matplotlib & Plotly** – visualizations
+- **Streamlit** – interactive web dashboard
+
+---
+
+## 🔹 Who This Project Is For
+- Government agencies  
+- NGOs & non-profits  
+- Policy makers  
+- Researchers  
+- Anyone working in public health or social services  
+
+---
+
+## 🔹 Project Type
+Data Science • Data Visualization • Social Impact • Interactive Dashboard
 
